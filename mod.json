@@ -1,0 +1,43 @@
+{
+	"geode": "2.0.0-beta.20",
+	"version": "v0.0.0-alpha.2",
+	"tags": ["spinoff", "main levels"],
+	"gd": "*",
+	"resources": {
+        "sprites": [
+            "resources/*.png"
+		],
+		"files": [
+			"levels/*.txt"
+		]
+    },
+	"issues": {
+		"info": "Just write issues in the link below and I will try to fix them.",
+		"url": "https://github.com/0mgRod/SpinoffLevels/issues"
+	},
+		"settings": {
+			"world": {
+				"name": "World",
+				"description": "Display GD World levels",
+				"type": "bool",
+				"default": true
+			},
+			"meltdown": {
+				"name": "Meltdown",
+				"description": "Display GD Meltdown levels",
+				"type": "bool",
+				"default": true
+			},
+			"subzero": {
+				"name": "Subzero",
+				"description": "Display GD Subzero levels",
+				"type": "bool",
+				"default": true
+			}
+		},
+	"repository": "https://github.com/0mgRod/SpinoffLevels",
+	"id": "omgrod.spinoff_levels",
+	"name": "Spinoff Levels",
+	"developer": "OmgRod",
+	"description": "Play the spinoff game levels in the full version"
+}
